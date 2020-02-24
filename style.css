@@ -99,6 +99,12 @@ h2.section-heading {
 /*^^^  ^^^  END of PORTFOLIO section  ^^^  ^^^*/
 
 /*>>> >>> Start of PORTFOLIO section >>> >>>*/
+.latest-work{
+    background-image: url(images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
 .portfolio img {
     width: 28%;
     padding: 0 24px;
@@ -109,7 +115,12 @@ h2.section-heading {
 }
 
 
-
+.testimonial{
+    background-image: url(images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
 .testimonial {
     text-align: center;
 }
@@ -158,3 +169,4 @@ footer p {
     color: #707070;
     padding: 50px 0;
 }
+
