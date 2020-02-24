@@ -1,0 +1,160 @@
+body{
+    margin:0 0;
+    font-family: 'Poppins';
+}
+h1, h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald' ;
+}
+.container{
+    width:80%;
+    margin:auto;
+}
+.padding-width{
+    height:800px;
+    padding: 100px 0;
+    overflow: hidden;
+
+}
+.intro{
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.half-width {
+    float: left;
+    width: 48%;
+}
+.half-width img{
+    width:90%;
+
+}
+h1 {
+    font-size: 40px;
+    line-height: 80px;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+.vertical-align-center {
+    padding: 80px 0;
+}
+
+span.name-color {
+    color: #ec4c7a;
+    font-weight: 700;
+}
+
+.vertical-align-center p {
+    color: #ec4c7a;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+a.hire-me-btn {
+    text-decoration: none;
+    text-transform: uppercase;
+    background-image: linear-gradient(45deg, #ec4f92, #ed4b72);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 30px;
+    display: inline-block;
+}
+
+/*^^^ ^^^ End of INTRO section^^^ ^^^*/
+
+/*>>> >>> Start of BIOGRAPHY section >>> >>>*/
+section.biography .vertical-align-center {
+    margin-left: 80px;
+    margin-top: 150px;
+}
+.biography{
+    background-image: url(images/biography-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.vertical-align-center h2 {
+    font-size: 39px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+}
+
+/*^^^  ^^^  END of BIOGRAPHY section ^^^  ^^^*/
+
+/*>>> >>> Start of PORTFOLIO section >>> >>>*/
+
+h2.section-heading {
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 150px;
+    text-transform: uppercase;
+}
+
+/*^^^  ^^^  END of PORTFOLIO section  ^^^  ^^^*/
+
+/*>>> >>> Start of PORTFOLIO section >>> >>>*/
+.portfolio img {
+    width: 28%;
+    padding: 0 24px;
+}
+
+.portfolio {
+    text-align: center;
+}
+
+
+
+.testimonial {
+    text-align: center;
+}
+
+.testimonial h3 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.testimonial p {
+    color: #707070;
+    font-size: 20px;
+}
+
+.qoute {
+    width: 600px;
+    margin: auto;
+    font-size: 20px;
+    color: #333;
+    padding: 50px 0;
+    line-height: 35px;
+}
+
+.mail-me {
+    width: 60%;
+    margin: auto;
+    padding: 50px 0;
+    background-image: linear-gradient(45deg, #ec5094, #ed4b71);
+    border-radius: 50px;
+}
+
+.mail-me p {
+
+    line-height: 50px;
+    color: white;
+}
+
+.mail-me span {
+    font-size: 35px;
+    margin-top: 52px;
+}
+footer p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    color: #707070;
+    padding: 50px 0;
+}
